@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Navbar Styling */
+.navbar-brand{
+    height: 50px;
+    width: 50px;
+}
+#book-now{
+    background-color: #CCE500 !important;
+    border: 0;
+}
+a:hover{
+    color: #CCE500 !important;
+}
+/* Banner Styling */
+#bgImg{
+    object-fit: cover;
+    height: 675px !important;
+    z-index: -1;
+}
+#banner{
+    background: url('https://cms-web.olacabs.com/00000000383.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #CCE500 !important;
+}
+#banner-carousel{
+    transform: translateY(100%);
+}
+/* Section 02 Styling */
+.fix-height{
+    height: 15rem;
+    object-fit: cover;   
+}
+.card-text,p{
+    text-align: justify;
+}
+
